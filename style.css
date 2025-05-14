@@ -5,9 +5,9 @@
 }
 
 :root{
-    --color-primary: #ffa500;
+    --color-primary: #65adff;
     --color-dark: #232323;
-    --color-light: #eaeaea;
+    --color-light: #65adff;
     --color-white: #fff;
 }
 
@@ -21,7 +21,7 @@ a {
 
 header {
     background-color: var(--color-dark);
-    color: var(--color-white);
+    color: var(--color-light);
     padding: 1.5rem 0;
 }
 
@@ -43,7 +43,7 @@ nav a {
 .hero {
     background-image: url(img/pexels-narda-yescas-1566837.jpg);
     background-size: cover;
-    color: var(--color-white);
+    color: var(--color-light);
     min-height: 75vh;
     padding: 10rem 0;
     text-align: center;
@@ -60,7 +60,7 @@ nav a {
 }
 
 section:not(#home) {
-    padding: 4rem;
+    padding: 8rem;
     text-align: center;
 }
 
@@ -79,9 +79,9 @@ p {
 }
 
 .menu.list > li {
-    background-color: var(--color-light);
+    background-color: var(--color-primary);
     border-radius: .5rem;
-    box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 12px -4px rgba(1, 108, 247, 0.5);
     display: inline-block;
     margin: 1.5rem;
     height: 28rem;
@@ -89,10 +89,11 @@ p {
     text-align: left;
 }
 
-.menu.list img {
+.menu-list img {
     border-top-left-radius: .5rem;
     border-top-right-radius: .5rem;
     object-fit: cover;
-    width: 100%;
+    max-width: 500px;
+    min-width: 500px;
 }
 
